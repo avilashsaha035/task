@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 23, 2024 at 02:59 PM
+-- Generation Time: Sep 14, 2024 at 11:06 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.2.12
 
@@ -123,8 +123,8 @@ CREATE TABLE `todos` (
 --
 
 INSERT INTO `todos` (`id`, `name`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Kal basa change korbo.', 'completed', '2024-06-26 14:31:43', '2024-06-27 01:14:44'),
-(5, 'Niloy k phn dibo', 'completed', '2024-06-27 01:19:13', '2024-06-27 01:19:17');
+(1, 'Testing1', 'completed', '2024-06-26 14:31:43', '2024-06-27 01:14:44'),
+(10, 'Task complete korte hbe', 'completed', '2024-09-12 14:32:58', '2024-09-12 14:33:00');
 
 -- --------------------------------------------------------
 
@@ -219,7 +219,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `todos`
 --
 ALTER TABLE `todos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `users`
